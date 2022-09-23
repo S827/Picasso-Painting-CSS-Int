@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(184, 132, 46);
+}
+/* Give the back-wall element a width of 100% and a height of 60%. */
+#back-wall {
+    background-color: #8B4513;
+    width: 100%;
+    height: 60%;
+    /* Set the position property for the back-wall element to absolute. 
+    An absolute position takes the element out of that top-down document flow and allows you to adjust it relative to its container. */
+    position: absolute;
+    /* When an element is manually positioned, you can shift its layout with 
+    top, left, right, and bottom. Set the back-wall to have a top value of 0, and a left value of 0. */
+    top: 0;
+    left: 0;
+    /* The z-index property is used to create "layers" for your HTML elements. If you are familiar with image editing tools, 
+    you may have worked with layers before. This is a similar concept.
+    Elements with a higher z-index value will appear to be layered on top of elements with a lower z-index value. 
+    This can be combined with the positioning in the previous lesson to create unique effects.
+    Since the back-wall element will need to appear "behind" the other elements you will be creating, 
+    give the back-wall element a z-index of -1. */
+    z-index: -1;
+  }
+
+  /* Using an id selector, create a rule for your offwhite-character element. 
+  Give it a width of 300px, a height of 550px, and a background-color of GhostWhite. */
+  #offwhite-character {
+    width: 300px;
+    height: 550px;
+    background-color: ghostwhite;
+    /* Move the offwhite-character into place by giving it a position of absolute, a top value of 20%, and a left value of 17.5%. */
+    position: absolute;
+    top: 20%;
+    left: 17.5%;
+  }
+
+  /* Using an id selector, style your white-hat element. Give it a width and height of 0, and a border-style of solid. */
+  #white-hat {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    /* That does not look quite right. Set a border-width of 0 120px 140px 180px to size the hat properly. */
+    border-width: 0 120px 140px 180px;
+    /* Now you have a large box. Give it a border-top-color, border-right-color, and border-left-color of transparent. 
+    Set the border-bottom-color to GhostWhite. This will make it look more like a hat. */
+    border-color: transparent transparent ghostwhite transparent;
+    /* Give the hat a position of absolute, a top value of -140px, and a left value of 0. */
+    position: absolute;
+    top: -140px;
+    left: 0;
+  }
+
+  /* Using an id selector, create a rule for your black-mask element. 
+  Give it a width of 100%, a height of 50px, and a background-color of rgb(45, 31, 19). */
+  #black-mask {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(45, 31, 19);
+    /* Give the mask a position of absolute, and a top and left value of 0. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* To ensure you can see the mask, give it a z-index of 1. */
+    z-index: 1;
+  }
+
+  /* Using an id selector, give your gray-instrument element a width of 15%, 
+  a height of 40%, and a background-color of rgb(167, 162, 117). */
+  #gray-instrument {
+    width: 15%;
+    height: 40%;
+    background-color: rgb(167, 162, 117);
+    /* Now move it into place with a position of absolute, a top value of 50px, and a left value of 125px. */
+    position: absolute;
+    top: 50px;
+    left: 125px;
+    /* Set the z-index to 1. */
+    z-index: 1;
+  }
+
+  /* Use a class selector to create a rule for the black-dot elements. 
+  Set the width to 10px, the height to 10px, and the background-color to rgb(45, 31, 19). */
+  .black-dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(45, 31, 19);
+    /* These dots are just a little too square. Give the black-dot class a border-radius of 50% to fix it. */
+    border-radius: 50%;
+    /* Move the dots into place by setting the display to block, the margin to auto, and the margin-top to 65%. */
+    display: block;
+    margin: auto;
+    margin-top: 65%;
+  }
+
+  /* Use an id selector to style your tan-table element. Give it a width of 450px, a height of 140px, and a background-color of #D2691E. */
+  #tan-table {
+    width: 450px;
+    height: 140px;
+    background-color: #D2691E;
+    /* Move the table into place by giving it a position of absolute, a top value of 275px, and a left value of 15px. */
+    position: absolute;
+    top: 275px;
+    left: 15px;
+    /* Give the table a z-index of 1. */
+    z-index: 1;
+  }
+
+  /* Use an id selector to create a rule for your black-character element. 
+  Set the width to 300px, the height to 500px, and the background-color to rgb(45, 31, 19). */
+  #black-character{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(45, 31, 19);
+    /* Move the black-character element into place by setting the position to absolute, the top to 30%, and the left to 59%. */
+    position: absolute;
+    top: 30%;
+    left: 59%;
+  }
+
+  /* Use an id selector to create a rule for your black-hat element. Give it a width of 0, a height of 0, and a border-style of solid. */
+  #black-hat {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    /* Set the border-width of the black-hat to 150px 0 0 300px. */
+    border-width: 150px 0 0 300px;
+    /* Just like with your white-hat, you should style the border for the black-hat element. 
+    Give it a border-top-color, border-right-color, and border-bottom-color of transparent. Set the border-left-color to rgb(45, 31, 19). */
+    border-color: transparent transparent transparent rgb(45, 31, 19);
+    /* Now position the black-hat element. Give it a position of absolute, with a top of -150px and a left of 0. */
+    position: absolute;
+    top: -150px;
+    left: 0;
+  }
+
+  /* Using an id selector, style the gray-mask element. 
+  Give it a width of 150px, a height of 150px, and a background-color of rgb(167, 162, 117). */
+  #gray-mask {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(167, 162, 117);
+  }

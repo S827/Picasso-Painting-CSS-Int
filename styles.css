@@ -139,4 +139,203 @@ body {
     width: 150px;
     height: 150px;
     background-color: rgb(167, 162, 117);
+    /* Position the gray-mask by setting position to absolute, the top to -10px, and the left to 70px. */
+    position: absolute;
+    top: -10px;
+    left: 70px;
+  }
+
+  /* Using an id selector, create a rule for the white-paper element. 
+  Set the width to 400px, the height to 100px, and the background-color to GhostWhite. */
+  #white-paper {
+    width: 400px;
+    height: 100px;
+    background-color: ghostwhite;
+    /* Give the white-paper a position of absolute, a top of 250px, and a left of -150px to move it into place. */
+    position: absolute;
+    top: 250px;
+    left: -150px;
+    /* Set the z-index of the white-paper to 1. */
+    z-index: 1;
+  }
+
+  /* FontAwesome icons come with their own styling to define the icon. 
+  However, you can still set the styling yourself as well, to change things like the color and size. 
+  For now, use a class selector to target your fa-music icons. Set the display to inline-block, 
+  the margin-top to 8%, and the margin-left to 13%. */
+  .fa-music {
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 13%;
+  }
+
+  /* Use a class selector to target your new blue elements. Set the background-color to #1E90FF. */
+  .blue  {
+    background-color: #1e90ff;
+    
+  }
+
+  /* Select the blue-left element with an id selector. Give it a width of 500px and a height of 300px. */
+  #blue-left {
+    width: 500px;
+    height: 300px;
+    /* Now set the position to absolute, the top to 20%, and the left to 20%. */
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+
+  /* Next, target your blue-right element with an id selector. Set the width to 400px and the height to 300px. */
+  #blue-right {
+    width: 400px;
+    height: 300px;
+    /* Give the blue-right the correct positioning with position set to absolute, top set to 50%, and left set to 40%. */
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  }
+
+  /* Select your orange-character element with an id selector. Give it a width of 250px, 
+  a height of 550px, and a background-color of rgb(240, 78, 42). */
+  #orange-character {
+    width: 250px;
+    height: 550px;
+    background-color: rgb(240, 78, 42);
+    /* Give the orange-character a position of absolute, a top of 25%, and a left of 40%. */
+    position: absolute;
+    top: 25%;
+    left: 40%;
+  }
+
+  /* Style your black-round-hat element with an id selector. Set the width to 180px, 
+  the height to 150px, and the background-color to rgb(45, 31, 19). */
+  #black-round-hat {
+    width: 180px;
+    height: 150px;
+    background-color: rgb(45, 31, 19);
+    /* The black-round-hat should probably be round. Give it a border-radius of 50% to fix this. */
+    border-radius: 50%;
+    /* Move the black-round-hat into place with a position of absolute, a top of -100px, and a left of 5px. */
+    position: absolute;
+    top: -100px;
+    left: 5px;
+    /* Put the black-round-hat on the correct layer with a z-index of -1. */
+    z-index: -1;
+  }
+
+  /* Use an id selector to create a rule for your eyes-div element. Set the width to 180px and the height to 50px. */
+  #eys-div {
+    width: 180px;
+    height: 50px;
+    /* Now move the eyes-div into position with position set to absolute, top set to -40px, and left set to 20px. */
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    /* Give the eyes-div a z-index of 3. */
+    z-index: 3;
+  }
+
+  /* Target your triangles element with an id selector. Set the width to 250px and the height to 550px. */
+  #triangles {
+    width: 250px;
+    height: 550px;
+  }
+
+  /* Create a class selector for your triangle elements. Set the width to 0 and the height to 0. */
+  .triangle {
+    width: 0;
+    height: 0;
+    /* Style the border of your triangle elements. Set the border-style to solid and the border-width to 42px 45px 45px 0. */
+    border-style: solid;
+    border-width: 42px 45px 45px 0;
+    /* Give your triangle elements the correct color. Set the border-top-color, border-bottom-color, 
+    and border-left-color to transparent. Set the border-right-color to Gold. */
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: Gold;
+    /* Adjust the layout of the triangle elements with a display of inline-block. */
+    display: inline-block;
+  }
+
+  /* Now use an id selector for guitar. Set the width to 100%, and the height to 100px. */
+  #guitar {
+    width: 100%;
+    height: 100px;
+    /* In the same #guitar selector, set the position to absolute, the top to 120px, and the left to 0px. */
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    /* Give the #guitar rule a z-index of 3. */
+    z-index: 3;
+  }
+
+  /* Now use a class selector to target guitar. This will style the two "halves" of your guitar. 
+  Set the width to 150px, the height to 120px, the background-color to Goldenrod, and the border-radius to 50%. */
+  .guitar {
+    width: 150px;
+    height: 120px;
+    background-color: goldenrod;
+    border-radius: 50%;
+  }
+
+  /* Select the id with value guitar-left, and set the position to absolute and the left to 0px. */
+  #guitar-left {
+    position: absolute;
+    left: 0px;
+  }
+
+  /* Select the id with value guitar-right, and also set position to absolute. This time, set left to 100px. */
+  #guitar-right {
+    position: absolute;
+    left: 100px;
+  }
+
+  /* Now you need to move the bar icons into place. Create a class selector for the fa-bars class. 
+  Set the display to block, the margin-top to 30%, and the margin-left to 40%. */
+  .fa-bars {
+    display: block;
+    margin-top: 30%;
+    margin-left: 40%;
+  }
+
+  /* Use an id selector to create a guitar-neck rule. Set the width to 200px, the height to 30px, and the background-color to #D2691E. */
+  #guitar-neck {
+    width: 200px;
+    height: 30px;
+    background-color: #d2691e;
+    /* Now move the guitar-neck with a position of absolute, a top value of 45px, and a left value of 200px. */
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    /* Give the guitar-neck a z-index of 3. */
+    z-index: 3;
+  }
+
+  /* Time to style your eyes elements. Use a class selector to set the width to 35px, the height to 20px, 
+  the background-color to #8B4513, and the border-radius to 20px 50%. */
+  .eyes {
+    width: 35px;
+    height: 20px;
+    background-color: #8B4513;
+    border-radius: 20px 50%;
+  }
+
+  /* Target the class with value right and set the position to absolute, top to 15px, and right to 30px. */
+  .right {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+  }
+
+  /* For the class with value left, create the selector and set the position to absolute, the top to 15px, and the left to 30px. */
+  .left {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
+
+  /* One last step. The FontAwesome icons are a little too small. Target all of them with a class selector for fas, and set the font-size to 30px. */
+  .fas {
+    font-size: 30px;
   }
